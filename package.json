@@ -1,0 +1,16 @@
+{
+  "name": "Sample_TypeORM_2",
+  "version": "1.11.2024123232017",
+  "description": "src為自動生成程式。參考TypeORM提供之Sample建置",
+  "type": "commonjs",
+  "keywords": [],
+  "homepage": "https://github.com/pekora-tech",
+  "author": "Pekora-tech, Jerry Huang, Henry Ford, Калашников, Forrest Gump, Hyrum, Bharat Mediratta, Beyer, B.",
+  "license": "WTFPL",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/index.ts",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "format": "prettier --write \"src/**/*.{js,ts,json}\""
+  }
+}
